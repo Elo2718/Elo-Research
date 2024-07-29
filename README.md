@@ -1,2 +1,2 @@
 # Elo-Research
-My journey to become successful
+My work in mathematics, statistics, and computer science.
