@@ -1,14 +1,4 @@
-Consumer Price Index for All Urban Consumers (CPI-U),Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14
-Original Data Value,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-Series Id:,CUUR0000SA0,,,,,,,,,,,,,
-Not Seasonally Adjusted,,,,,,,,,,,,,,
-Series Title:,"All items in U.S. city average, all urban consumers, not seasonally adjusted",,,,,,,,,,,,,
-Area:,U.S. city average,,,,,,,,,,,,,
-Item:,All items,,,,,,,,,,,,,
-Base Period:,1982-84=100,,,,,,,,,,,,,
-Years:,1913 to 2024,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+
 Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,HALF1,HALF2
 1913,9.8,9.8,9.8,9.8,9.7,9.8,9.9,9.9,10,10,10.1,10,,
 1914,10,9.9,9.9,9.8,9.9,9.9,10,10.2,10.2,10.1,10.2,10.1,,
