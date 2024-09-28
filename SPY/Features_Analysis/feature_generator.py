@@ -60,6 +60,24 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+data['SPY_Momentum_5'] = (data['SPY_Close'] - data['SPY_Close'].shift(5)) / data['SPY_Close'].shift(5) * 100
+data['SPY_Momentum_20'] = (data['SPY_Close'] - data['SPY_Close'].shift(20)) / data['SPY_Close'].shift(20) * 100
+
+data.dropna(inplace=True)
+
+# Plot the SPY Momentum (5-period and 20-period percent change)
+plt.figure(figsize=(10, 6))
+
+plt.plot(data['Date'], data['SPY_Momentum_5'], label='SPY 5-Period Momentum (%)', color='blue')
+plt.plot(data['Date'], data['SPY_Momentum_20'], label='SPY 20-Period Momentum (%)', color='green')
+
+plt.xlabel('Date')
+plt.ylabel('Momentum (%)')
+plt.title('SPY 5-Period and 20-Period Momentum')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 data['SPY_Percent_Change:High_To_Previous_Close'] = (data['SPY_High'] - data['SPY_Close'].shift(1)) / data['SPY_Close'] * 100
 
 plt.figure(figsize=(10 , 6))

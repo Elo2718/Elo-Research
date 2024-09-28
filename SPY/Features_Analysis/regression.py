@@ -79,3 +79,22 @@ plt.ylabel('20-Period Z-Score of SPY Volume')
 plt.title('SPY 20-Day Oscillator vs 20-Period Z-Score of SPY Volume')
 plt.grid(True)
 plt.show()
+
+
+# Scatter plot of SPY_Momentum_5 vs SPY_Return
+plt.figure(figsize=(10, 6))
+plt.scatter(df['SPY_Momentum_5'], df['SPY_Percent_Close_Change'], color='blue', alpha=0.5)
+plt.xlabel('SPY 5-Period Momentum (%)')
+plt.ylabel('SPY Return (%)')
+plt.title('SPY 5-Period Momentum vs SPY Return')
+plt.grid(True)
+plt.show()
+
+# Scatter plot of SPY_Momentum_20 vs SPY_Return
+plt.figure(figsize=(10, 6))
+plt.scatter(df['SPY_Momentum_20'], df['SPY_Percent_Close_Change'], color='green', alpha=0.5)
+plt.xlabel('SPY 20-Period Momentum (%)')
+plt.ylabel('SPY Return (%)')
+plt.title('SPY 20-Period Momentum vs SPY Return')
+plt.grid(True)
+plt.show()
