@@ -4,7 +4,7 @@ A time-series deep-learning pipeline that reads SEC Form 10-Q reports, encodes t
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project implements a **walk-forward cross-validation** framework to forecast stock direction (+1 = long, 0 = short) based on:
 1. **Text embeddings** of quarterly 10-Q filings (via the `yiyanghkust/finbert-pretrain` model).
@@ -14,4 +14,89 @@ We compare performance to classical baselines (e.g. XGBoost) and show that combi
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
+.
+├── data/                           
+│   ├── raw/                        # Input JSON & downloaded 10-Qs + price data
+│   └── processed/                  # CSV tickers, cleaned price, embeddings, master CSV
+├── src/                           
+│   ├── jsonToCSV.py                # 1. Convert SEC JSON tickers → CSV
+│   ├── large_cap_stocks.py         # 2. Generate list of large-cap tickers
+│   ├── downloadStockData.py        # 3. Download historical prices via yfinance
+│   ├── cleanStockPriceData.py      # 4. Clean & align raw price CSVs
+│   ├── download10Q.py              # 5. Download 10-Q filings from SEC
+│   ├── checkEmptyFolders.py        # 6. Verify no empty ticker folders
+│   ├── clean10Q.py                 # 7. Preprocess 10-Q text for tokenization
+│   ├── TokenizeCheck.py            # 8. Sanity-check that all .txt can be tokenized
+│   ├── embedding.py                # 9. FinBERT tokenization & embedding of 10-Qs
+│   ├── TripleBarrier.py            # 10. Label each date long/short via triple-barrier
+│   ├── masterDataset.py            # 11. Merge embeddings + labels + features → master CSV
+│   ├── gridSearch.py               # 12. Walk-forward grid search for TCN hyper-params
+│   ├── train.py                    # 13. Train final TCN with best params
+│   └── predict.py                  # 14. Run trained model on newest 10-Q → probabilities
+├── models/                         # Saved checkpoints (e.g. tcn_best.pt)
+├── reports/                        # LaTeX source & PDF of technical report
+├── requirements.txt                # All Python dependencies
+└── README.md                       # Project overview & instructions
+
+##Usage
+
+python src/jsonToCSV.py \
+  --input data/raw/company_tickers.json \
+  --output data/processed/tickers.csv
+
+python src/large_cap_stocks.py \
+  --tickers data/processed/tickers.csv \
+  --output data/processed/large_caps.txt
+
+python src/downloadStockData.py \
+  --tickers data/processed/large_caps.txt \
+  --output data/raw/prices/
+
+python src/cleanStockPriceData.py \
+  --input data/raw/prices/ \
+  --output data/processed/prices_clean/
+
+python src/download10Q.py \
+  --tickers data/processed/large_caps.txt \
+  --output data/raw/10Q/
+
+python src/checkEmptyFolders.py \
+  --price-dir data/processed/prices_clean/ \
+  --sec-dir data/raw/10Q/
+
+python src/clean10Q.py \
+  --input data/raw/10Q/ \
+  --output data/processed/10Q_clean/
+
+python src/TokenizeCheck.py \
+  --input data/processed/10Q_clean/
+
+python src/embedding.py \
+  --input data/processed/10Q_clean/ \
+  --output data/processed/embeddings/
+
+python src/TripleBarrier.py \
+  --prices data/processed/prices_clean/ \
+  --output data/processed/labels.csv
+
+python src/masterDataset.py \
+  --embeddings data/processed/embeddings/ \
+  --labels data/processed/labels.csv \
+  --output data/processed/master_dataset.csv
+
+python src/gridSearch.py \
+  --data data/processed/master_dataset.csv \
+  --output models/tcn_best.pt
+
+python src/train.py \
+  --data data/processed/master_dataset.csv \
+  --checkpoint models/tcn_best.pt \
+  --output models/tcn_final.pt
+
+python src/predict.py \
+  --model models/tcn_final.pt \
+  --ticker AAPL \
+  --output predictions/AAPL_prob.csv
+
+
