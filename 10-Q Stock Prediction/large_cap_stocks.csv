@@ -1,0 +1,909 @@
+ticker,marketCap,company,sector,industry
+AAPL,3067066712064,Apple Inc.,Technology,Consumer Electronics
+MSFT,3235236020224,Microsoft Corporation,Technology,Software - Infrastructure
+NVDA,2793799942144,NVIDIA Corporation,Technology,Semiconductors
+GOOGL,2000181788672,Alphabet Inc.,Communication Services,Internet Content & Information
+AMZN,2016903561216,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail
+META,1507147251712,"Meta Platforms, Inc.",Communication Services,Internet Content & Information
+BRK-B,1164337741824,Berkshire Hathaway Inc.,Financial Services,Insurance - Diversified
+AVGO,957505077248,Broadcom Inc.,Technology,Semiconductors
+TSLA,925091889152,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers
+TSM,929844625408,Taiwan Semiconductor Manufacturing Company Limited,Technology,Semiconductors
+WMT,790087860224,Walmart Inc.,Consumer Defensive,Discount Stores
+LLY,739601678336,Eli Lilly and Company,Healthcare,Drug Manufacturers - General
+JPM,701747953664,JPMorgan Chase & Co.,Financial Services,Banks - Diversified
+V,666220625920,Visa Inc.,Financial Services,Credit Services
+MA,508018425856,Mastercard Incorporated,Financial Services,Credit Services
+SPY,520162148352,SPDR S&P 500 ETF,,
+XOM,457765093376,Exxon Mobil Corporation,Energy,Oil & Gas Integrated
+COST,447365578752,Costco Wholesale Corporation,Consumer Defensive,Discount Stores
+NFLX,492168609792,"Netflix, Inc.",Communication Services,Entertainment
+UNH,364016795648,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans
+PG,376345559040,The Procter & Gamble Company,Consumer Defensive,Household & Personal Products
+JNJ,375635640320,Johnson & Johnson,Healthcare,Drug Manufacturers - General
+ORCL,422681542656,Oracle Corporation,Technology,Software - Infrastructure
+HD,362306633728,"The Home Depot, Inc.",Consumer Cyclical,Home Improvement Retail
+KO,308400947200,The Coca-Cola Company,Consumer Defensive,Beverages - Non-Alcoholic
+ABBV,351089459200,AbbVie Inc.,Healthcare,Drug Manufacturers - General
+SAP,351983534080,SAP SE,Technology,Software - Application
+TMUS,282590806016,"T-Mobile US, Inc.",Communication Services,Telecom Services
+BAC,309334310912,Bank of America Corporation,Financial Services,Banks - Diversified
+NVO,306298454016,Novo Nordisk A/S,Healthcare,Drug Manufacturers - General
+BABA,300272123904,Alibaba Group Holding Limited,Consumer Cyclical,Internet Retail
+RCIT,283197734912,"Reelcause, Inc.",Industrials,Specialty Industrial Machinery
+ASML,271437758464,ASML Holding N.V.,Technology,Semiconductor Equipment & Materials
+PM,265947004928,Philip Morris International Inc.,Consumer Defensive,Tobacco
+CVX,241920720896,Chevron Corporation,Energy,Oil & Gas Integrated
+CRM,263932084224,"Salesforce, Inc.",Technology,Software - Application
+TM,250540638208,Toyota Motor Corporation,Consumer Cyclical,Auto Manufacturers
+ABT,231085555712,Abbott Laboratories,Healthcare,Medical Devices
+MCD,223073861632,McDonald's Corporation,Consumer Cyclical,Restaurants
+PLTR,293262262272,Palantir Technologies Inc.,Technology,Software - Infrastructure
+IBM,228213440512,International Business Machines Corporation,Technology,Information Technology Services
+CSCO,236031950848,"Cisco Systems, Inc.",Technology,Communication Equipment
+NVS,225733050368,Novartis AG,Healthcare,Drug Manufacturers - General
+LIN,214155886592,Linde plc,Basic Materials,Specialty Chemicals
+WFC,240158507008,Wells Fargo & Company,Financial Services,Banks - Diversified
+AZN,224592248832,AstraZeneca PLC,Healthcare,Drug Manufacturers - General
+GE,221489201152,GE Aerospace,Industrials,Aerospace & Defense
+T,198670516224,AT&T Inc.,Communication Services,Telecom Services
+MRK,209313316864,"Merck & Co., Inc.",Healthcare,Drug Manufacturers - General
+PEP,183381934080,"PepsiCo, Inc.",Consumer Defensive,Beverages - Non-Alcoholic
+SHEL,198093406208,Shell plc,Energy,Oil & Gas Integrated
+HDB,187791360000,HDFC Bank Limited,Financial Services,Banks - Regional
+HSBC,199636271104,HSBC Holdings plc,Financial Services,Banks - Diversified
+VZ,184418779136,Verizon Communications Inc.,Communication Services,Telecom Services
+FMX,175676096512,"Fomento Económico Mexicano, S.A.B. de C.V.",Consumer Defensive,Beverages - Brewers
+AXP,193958068224,American Express Company,Financial Services,Credit Services
+MS,193193541632,Morgan Stanley,Financial Services,Capital Markets
+ACN,191144509440,Accenture plc,Technology,Information Technology Services
+ISRG,189753638912,"Intuitive Surgical, Inc.",Healthcare,Medical Instruments & Supplies
+QQQ,192159072256,Invesco QQQ Trust,,
+IDEXY,169691316224,"Industria de Diseño Textil, S.A.",Consumer Cyclical,Apparel Retail
+INTU,176593715200,Intuit Inc.,Technology,Software - Application
+RY,171297521664,Royal Bank of Canada,Financial Services,Banks - Diversified
+TMO,159886737408,Thermo Fisher Scientific Inc.,Healthcare,Diagnostics & Research
+BX,167859896320,Blackstone Inc.,Financial Services,Asset Management
+GS,175938224128,"The Goldman Sachs Group, Inc.",Financial Services,Capital Markets
+NOW,202293002240,"ServiceNow, Inc.",Technology,Software - Application
+UL,155955363840,Unilever PLC,Consumer Defensive,Household & Personal Products
+UBER,176251387904,"Uber Technologies, Inc.",Technology,Software - Application
+PGR,165793415168,The Progressive Corporation,Financial Services,Insurance - Property & Casualty
+DIS,167202488320,The Walt Disney Company,Communication Services,Entertainment
+RTX,173954056192,RTX Corporation,Industrials,Aerospace & Defense
+BKNG,169300672512,Booking Holdings Inc.,Consumer Cyclical,Travel Services
+QCOM,153511378944,QUALCOMM Incorporated,Technology,Semiconductors
+ADBE,162326790144,Adobe Inc.,Technology,Software - Application
+AMGN,151213670400,Amgen Inc.,Healthcare,Drug Manufacturers - General
+SONY,154372931584,Sony Group Corporation,Technology,Consumer Electronics
+SPGI,155371749376,S&P Global Inc.,Financial Services,Financial Data & Stock Exchanges
+TJX,144340500480,"The TJX Companies, Inc.",Consumer Cyclical,Apparel Retail
+CAT,152231559168,Caterpillar Inc.,Industrials,Farm & Heavy Construction Machinery
+BSX,155198816256,Boston Scientific Corporation,Healthcare,Medical Devices
+AMD,160513458176,"Advanced Micro Devices, Inc.",Technology,Semiconductors
+BLK,144046440448,"BlackRock, Inc.",Financial Services,Asset Management
+SCHW,150921117696,The Charles Schwab Corporation,Financial Services,Capital Markets
+DHR,142454112256,Danaher Corporation,Healthcare,Diagnostics & Research
+NEE,138113482752,"NextEra Energy, Inc.",Utilities,Utilities - Regulated Electric
+MUFG,141529939968,"Mitsubishi UFJ Financial Group, Inc.",Financial Services,Banks - Diversified
+PDD,157467574272,PDD Holdings Inc.,Consumer Cyclical,Internet Retail
+TXN,149452718080,Texas Instruments Incorporated,Technology,Semiconductors
+SYK,144362405888,Stryker Corporation,Healthcare,Medical Devices
+TTE,128867794944,TotalEnergies SE,Energy,Oil & Gas Integrated
+UNP,130423021568,Union Pacific Corporation,Industrials,Railroads
+GILD,129081589760,"Gilead Sciences, Inc.",Healthcare,Drug Manufacturers - General
+BUD,127594692608,Anheuser-Busch InBev SA/NV,Consumer Defensive,Beverages - Brewers
+CMCSA,128663298048,Comcast Corporation,Communication Services,Telecom Services
+HON,137740632064,Honeywell International Inc.,Industrials,Conglomerates
+VRTX,128836141056,Vertex Pharmaceuticals Incorporated,Healthcare,Biotechnology
+SNY,135401660416,Sanofi,Healthcare,Drug Manufacturers - General
+PFE,137249095680,Pfizer Inc.,Healthcare,Drug Manufacturers - General
+DE,130731991040,Deere & Company,Industrials,Farm & Heavy Construction Machinery
+LOW,127159607296,"Lowe's Companies, Inc.",Consumer Cyclical,Home Improvement Retail
+BA,139837964288,The Boeing Company,Industrials,Aerospace & Defense
+SPOT,132056064000,Spotify Technology S.A.,Communication Services,Internet Content & Information
+EADSY,138412605440,Airbus SE,Industrials,Aerospace & Defense
+ADP,123226046464,"Automatic Data Processing, Inc.",Technology,Software - Application
+C,131840933888,Citigroup Inc.,Financial Services,Banks - Diversified
+IBN,121809321984,ICICI Bank Limited,Financial Services,Banks - Regional
+BHP,123899789312,BHP Group Limited,Basic Materials,Other Industrial Metals & Mining
+FI,102220988416,"Fiserv, Inc.",Technology,Information Technology Services
+CB,115132588032,Chubb Limited,Financial Services,Insurance - Property & Casualty
+AIQUY,120857870336,L'Air Liquide S.A.,Basic Materials,Specialty Chemicals
+RTNTF,121071370240,Rio Tinto Group,Basic Materials,Other Industrial Metals & Mining
+COP,115557785600,ConocoPhillips,Energy,Oil & Gas E&P
+AMAT,126009606144,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials
+PANW,124276162560,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure
+SHOP,128104947712,Shopify Inc. Class A Subordinate Voting Shares,Technology,Software - Application
+MMC,111992143872,"Marsh & McLennan Companies, Inc.",Financial Services,Insurance Brokers
+HTHIY,118704168960,"Hitachi, Ltd.",Industrials,Conglomerates
+ARM,129926578176,Arm Holdings plc,Technology,Semiconductors
+MELI,115625050112,"MercadoLibre, Inc.",Consumer Cyclical,Internet Retail
+LMT,110775148544,Lockheed Martin Corporation,Industrials,Aerospace & Defense
+ETN,117417082880,Eaton Corporation plc,Industrials,Specialty Industrial Machinery
+TD,112045768704,The Toronto-Dominion Bank,Financial Services,Banks - Diversified
+MDT,108823519232,Medtronic plc,Healthcare,Medical Devices
+AMT,104675655680,American Tower Corporation,Real Estate,REIT - Specialty
+SAN,106747994112,"Banco Santander, S.A.",Financial Services,Banks - Diversified
+CFRUY,103493828608,Compagnie Financière Richemont SA,Consumer Cyclical,Luxury Goods
+SO,100172300288,The Southern Company,Utilities,Utilities - Regulated Electric
+BMY,102913990656,Bristol-Myers Squibb Company,Healthcare,Drug Manufacturers - General
+ENB,102116843520,Enbridge Inc.,Energy,Oil & Gas Midstream
+MO,100410064896,"Altria Group, Inc.",Consumer Defensive,Tobacco
+KKR,107905228800,KKR & Co. Inc.,Financial Services,Asset Management
+WELL,98563645440,Welltower Inc.,Real Estate,REIT - Healthcare Facilities
+ELV,92628836352,"Elevance Health, Inc.",Healthcare,Healthcare Plans
+RELX,101226897408,RELX PLC,Industrials,Specialty Business Services
+RIO,96995188736,Rio Tinto Group,Basic Materials,Other Industrial Metals & Mining
+DUK,94470340608,Duke Energy Corporation,Utilities,Utilities - Regulated Electric
+CME,101062688768,CME Group Inc.,Financial Services,Financial Data & Stock Exchanges
+PLD,97812684800,"Prologis, Inc.",Real Estate,REIT - Industrial
+CRWD,109207879680,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure
+SBUX,96241721344,Starbucks Corporation,Consumer Cyclical,Restaurants
+ICE,99646676992,"Intercontinental Exchange, Inc.",Financial Services,Financial Data & Stock Exchanges
+BTI,94663172096,British American Tobacco p.l.c.,Consumer Defensive,Tobacco
+WM,94139326464,"Waste Management, Inc.",Industrials,Waste Management
+GEV,108169601024,GE Vernova Inc.,Industrials,Specialty Industrial Machinery
+UBS,97897029632,UBS Group AG,Financial Services,Banks - Diversified
+CI,90306510848,The Cigna Group,Healthcare,Healthcare Plans
+MSTR,107821539328,Strategy Incorporated,Technology,Software - Application
+ANET,114287435776,Arista Networks Inc,Technology,Computer Hardware
+SMFG,89573982208,"Sumitomo Mitsui Financial Group, Inc.",Financial Services,Banks - Diversified
+ADI,98495873024,"Analog Devices, Inc.",Technology,Semiconductors
+MCK,88782184448,McKesson Corporation,Healthcare,Medical Distribution
+MDLZ,87724056576,"Mondelez International, Inc.",Consumer Defensive,Confectioners
+AJG,84774019072,Arthur J. Gallagher & Co.,Financial Services,Insurance Brokers
+KLAC,92325371904,KLA Corporation,Technology,Semiconductor Equipment & Materials
+SHW,90126147584,The Sherwin-Williams Company,Basic Materials,Specialty Chemicals
+INTC,89944440832,Intel Corporation,Technology,Semiconductors
+CVS,85160157184,CVS Health Corporation,Healthcare,Healthcare Plans
+CTAS,85421146112,Cintas Corporation,Industrials,Specialty Business Services
+APP,104073691136,AppLovin Corporation,Technology,Software - Application
+NKE,86478258176,"NIKE, Inc.",Consumer Cyclical,Footwear & Accessories
+HCA,83712532480,"HCA Healthcare, Inc.",Healthcare,Medical Care Facilities
+LRCX,95320014848,Lam Research Corporation,Technology,Semiconductor Equipment & Materials
+TRI,83110313984,Thomson Reuters Corporation Common Shares,Industrials,Specialty Business Services
+UPS,81702092800,"United Parcel Service, Inc.",Industrials,Integrated Freight & Logistics
+AON,76928622592,Aon plc,Financial Services,Insurance Brokers
+APH,97742176256,Amphenol Corporation,Technology,Electronic Components
+GLD,77564198912,SPDR Gold Shares,,
+MU,90210254848,"Micron Technology, Inc.",Technology,Semiconductors
+BAM,89658540032,Brookfield Asset Management Ltd.,Financial Services,Asset Management
+ORLY,80181501952,"O'Reilly Automotive, Inc.",Consumer Cyclical,Auto Parts
+RACE,82479480832,Ferrari N.V.,Consumer Cyclical,Auto Manufacturers
+BBVA,79844319232,"Banco Bilbao Vizcaya Argentaria, S.A.",Financial Services,Banks - Diversified
+EQIX,85674156032,"Equinix, Inc.",Real Estate,REIT - Specialty
+MCO,83626188800,Moody's Corporation,Financial Services,Financial Data & Stock Exchanges
+DASH,86905454592,"DoorDash, Inc.",Communication Services,Internet Content & Information
+CL,73326804992,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products
+BN,83138445312,Brookfield Corporation,Financial Services,Asset Management
+TT,89115762688,Trane Technologies plc,Industrials,Building Products & Equipment
+RSG,78286749696,"Republic Services, Inc.",Industrials,Waste Management
+BP,73233760256,BP p.l.c.,Energy,Oil & Gas Integrated
+MMM,76464758784,3M Company,Industrials,Conglomerates
+FTNT,81649664000,"Fortinet, Inc.",Technology,Software - Infrastructure
+TDG,81338376192,TransDigm Group Incorporated,Industrials,Aerospace & Defense
+PH,79708110848,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery
+APO,77219373056,"Apollo Global Management, Inc.",Financial Services,Asset Management
+GSK,79432040448,GSK plc,Healthcare,Drug Manufacturers - General
+GD,73280159744,General Dynamics Corporation,Industrials,Aerospace & Defense
+WMB,73241403392,"The Williams Companies, Inc.",Energy,Oil & Gas Midstream
+CDNS,84529856512,"Cadence Design Systems, Inc.",Technology,Software - Application
+NGG,70264463360,National Grid plc,Utilities,Utilities - Regulated Electric
+SE,83936591872,Sea Limited,Consumer Cyclical,Internet Retail
+KDDIY,70798508032,KDDI Corporation,Communication Services,Telecom Services
+ABNB,77312098304,"Airbnb, Inc.",Consumer Cyclical,Travel Services
+MSI,67838001152,"Motorola Solutions, Inc.",Technology,Communication Equipment
+SCCO,72478687232,Southern Copper Corporation,Basic Materials,Copper
+PBR,71467909120,Petróleo Brasileiro S.A. - Petrobras,Energy,Oil & Gas Integrated
+ITW,71088455680,Illinois Tool Works Inc.,Industrials,Specialty Industrial Machinery
+INFY,74087743488,Infosys Limited,Technology,Information Technology Services
+IBKR,76727566336,"Interactive Brokers Group, Inc.",Financial Services,Capital Markets
+CP,69733474304,Canadian Pacific Kansas City Limited,Industrials,Railroads
+BMO,71034019840,Bank of Montreal,Financial Services,Banks - Diversified
+ECL,72434196480,Ecolab Inc.,Basic Materials,Specialty Chemicals
+EPD,65967222784,Enterprise Products Partners L.P.,Energy,Oil & Gas Midstream
+BAESY,70135996416,BAE Systems plc,Industrials,Aerospace & Defense
+CEG,77469032448,Constellation Energy Corporation,Utilities,Utilities - Renewable
+ZTS,70227845120,Zoetis Inc.,Healthcare,Drug Manufacturers - Specialty & Generic
+NOC,70729097216,Northrop Grumman Corporation,Industrials,Aerospace & Defense
+NTES,69056577536,"NetEase, Inc.",Communication Services,Electronic Gaming & Multimedia
+CMG,69469880320,"Chipotle Mexican Grill, Inc.",Consumer Cyclical,Restaurants
+SNPS,73023930368,"Synopsys, Inc.",Technology,Software - Infrastructure
+COF,71931191296,Capital One Financial Corporation,Financial Services,Credit Services
+EQNR,62929145856,Equinor ASA,Energy,Oil & Gas Integrated
+REGN,65384681472,"Regeneron Pharmaceuticals, Inc.",Healthcare,Biotechnology
+DEO,62934966272,Diageo plc,Consumer Defensive,Beverages - Wineries & Distilleries
+EOG,60505948160,"EOG Resources, Inc.",Energy,Oil & Gas E&P
+MFG,61732720640,"Mizuho Financial Group, Inc.",Financial Services,Banks - Regional
+KMI,59636916224,"Kinder Morgan, Inc.",Energy,Oil & Gas Midstream
+MAR,68697300992,"Marriott International, Inc.",Consumer Cyclical,Lodging
+PNC,65519239168,"The PNC Financial Services Group, Inc.",Financial Services,Banks - Regional
+IAU,59150049280,iShares Gold Trust,,
+AZO,62838517760,"AutoZone, Inc.",Consumer Cyclical,Auto Parts
+NEM,57352884224,Newmont Corporation,Basic Materials,Gold
+CNQ,60899246080,Canadian Natural Resources Limited,Energy,Oil & Gas E&P
+CNI,63590850560,Canadian National Railway Company,Industrials,Railroads
+PYPL,65400901632,"PayPal Holdings, Inc.",Financial Services,Credit Services
+USB,64693202944,U.S. Bancorp,Financial Services,Banks - Regional
+ROP,60857786368,"Roper Technologies, Inc.",Technology,Software - Application
+AEM,55947251712,Agnico Eagle Mines Limited,Basic Materials,Gold
+DELL,66008780800,Dell Technologies Inc.,Technology,Computer Hardware
+TRV,60586815488,"The Travelers Companies, Inc.",Financial Services,Insurance - Property & Casualty
+WDAY,66517422080,"Workday, Inc.",Technology,Software - Application
+ET,57198272512,Energy Transfer LP,Energy,Oil & Gas Midstream
+AFL,57249284096,Aflac Incorporated,Financial Services,Insurance - Life
+APD,61782663168,"Air Products and Chemicals, Inc.",Basic Materials,Specialty Chemicals
+BNS,62712434688,The Bank of Nova Scotia,Financial Services,Banks - Diversified
+CRH,66551287808,CRH plc,Basic Materials,Building Materials
+CPRT,59144212480,"Copart, Inc.",Industrials,Specialty Business Services
+AEP,57505169408,"American Electric Power Company, Inc.",Utilities,Utilities - Regulated Electric
+ING,62195335168,ING Groep N.V.,Financial Services,Banks - Diversified
+EMR,61081653248,Emerson Electric Co.,Industrials,Specialty Industrial Machinery
+ITUB,63869300736,Itaú Unibanco Holding S.A.,Financial Services,Banks - Regional
+MNST,58438197248,Monster Beverage Corporation,Consumer Defensive,Beverages - Non-Alcoholic
+SPG,60981792768,"Simon Property Group, Inc.",Real Estate,REIT - Retail
+LYG,57008623616,Lloyds Banking Group plc,Financial Services,Banks - Regional
+BDX,48373530624,"Becton, Dickinson and Company",Healthcare,Medical Instruments & Supplies
+MBGYY,57972822016,Mercedes-Benz Group AG,Consumer Cyclical,Auto Manufacturers
+CRARY,56808009728,Crédit Agricole S.A.,Financial Services,Banks - Regional
+ADSK,59637866496,"Autodesk, Inc.",Technology,Software - Application
+CM,59898331136,Canadian Imperial Bank of Commerce,Financial Services,Banks - Diversified
+BK,58765746176,The Bank of New York Mellon Corporation,Financial Services,Banks - Diversified
+COR,56587440128,"Cencora, Inc.",Healthcare,Medical Distribution
+NU,59992313856,Nu Holdings Ltd.,Financial Services,Banks - Regional
+OKE,51707035648,"ONEOK, Inc.",Energy,Oil & Gas Midstream
+BCS,57929134080,Barclays PLC,Financial Services,Banks - Diversified
+TEAM,54621757440,Atlassian Corporation,Technology,Software - Application
+RCL,62445219840,Royal Caribbean Cruises Ltd.,Consumer Cyclical,Travel Services
+CAIXY,55005958144,"CaixaBank, S.A.",Financial Services,Banks - Regional
+PTCAY,54161219584,PT Chandra Asri Pacific Tbk,Basic Materials,Specialty Chemicals
+PSA,52655616000,Public Storage,Real Estate,REIT - Industrial
+ALL,52778229760,The Allstate Corporation,Financial Services,Insurance - Property & Casualty
+MPLX,53037592576,MPLX LP,Energy,Oil & Gas Midstream
+PAYX,53960212480,"Paychex, Inc.",Technology,Software - Application
+LNG,52537311232,"Cheniere Energy, Inc.",Energy,Oil & Gas Midstream
+CARR,61323382784,Carrier Global Corporation,Industrials,Building Products & Equipment
+SHECY,62129147904,"Shin-Etsu Chemical Co., Ltd.",Basic Materials,Chemicals
+DLR,56463851520,"Digital Realty Trust, Inc.",Real Estate,REIT - Specialty
+CSX,53914386432,CSX Corporation,Industrials,Railroads
+O,50795163648,Realty Income Corporation,Real Estate,REIT - Retail
+JCI,58699558912,Johnson Controls International plc,Industrials,Building Products & Equipment
+TRP,53019201536,TC Energy Corporation,Energy,Oil & Gas Midstream
+HWM,62194053120,Howmet Aerospace Inc.,Industrials,Aerospace & Defense
+HLT,57261928448,Hilton Worldwide Holdings Inc.,Consumer Cyclical,Lodging
+JD,49390342144,"JD.com, Inc.",Consumer Cyclical,Internet Retail
+WCN,51110334464,"Waste Connections, Inc.",Industrials,Waste Management
+BMWKY,52363444224,,Consumer Cyclical,Auto Manufacturers
+MET,52233695232,"MetLife, Inc.",Financial Services,Insurance - Life
+MFC,54247362560,Manulife Financial Corporation,Financial Services,Insurance - Life
+NWG,52441350144,NatWest Group plc,Financial Services,Banks - Regional
+GBTC,53000925184,Grayscale Bitcoin Trust ETF,,
+FDX,52644696064,FedEx Corporation,Industrials,Integrated Freight & Logistics
+AMX,52641284096,"América Móvil, S.A.B. de C.V.",Communication Services,Telecom Services
+NSC,50580615168,Norfolk Southern Corporation,Industrials,Railroads
+CODYY,56048066560,Compagnie de Saint-Gobain S.A.,Industrials,Building Products & Equipment
+FCX,52639997952,Freeport-McMoRan Inc.,Basic Materials,Copper
+CHTR,54040141824,"Charter Communications, Inc.",Communication Services,Telecom Services
+GWW,51305865216,"W.W. Grainger, Inc.",Industrials,Industrial Distribution
+COIN,52180299776,"Coinbase Global, Inc.",Financial Services,Financial Data & Stock Exchanges
+SNOW,56015208448,Snowflake Inc.,Technology,Software - Application
+TAK,48216637440,Takeda Pharmaceutical Company Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+EXC,46923415552,Exelon Corporation,Utilities,Utilities - Regulated Electric
+AIG,48556265472,"American International Group, Inc.",Financial Services,Insurance - Diversified
+TFC,51687542784,Truist Financial Corporation,Financial Services,Banks - Regional
+KR,47597584384,The Kroger Co.,Consumer Defensive,Grocery Stores
+FICO,49855938560,Fair Isaac Corporation,Technology,Software - Application
+KDP,46735314944,Keurig Dr Pepper Inc.,Consumer Defensive,Beverages - Non-Alcoholic
+DB,52012634112,Deutsche Bank Aktiengesellschaft,Financial Services,Banks - Regional
+SLB,46918840320,Schlumberger Limited,Energy,Oil & Gas Equipment & Services
+ARES,51296862208,Ares Management Corporation,Financial Services,Asset Management
+FAST,47105757184,Fastenal Company,Industrials,Industrial Distribution
+HLN,48232923136,Haleon plc,Healthcare,Drug Manufacturers - Specialty & Generic
+SRE,49199878144,Sempra,Utilities,Utilities - Diversified
+PCAR,47193817088,PACCAR Inc,Industrials,Farm & Heavy Construction Machinery
+ALC,48620752896,Alcon Inc.,Healthcare,Medical Instruments & Supplies
+ROST,46197886976,"Ross Stores, Inc.",Consumer Cyclical,Apparel Retail
+KVUE,46010187776,Kenvue Inc.,Consumer Defensive,Household & Personal Products
+KMB,43252215808,Kimberly-Clark Corporation,Consumer Defensive,Household & Personal Products
+D,46871822336,"Dominion Energy, Inc.",Utilities,Utilities - Regulated Electric
+AMP,46267842560,"Ameriprise Financial, Inc.",Financial Services,Asset Management
+CCI,46534832128,Crown Castle Inc.,Real Estate,REIT - Specialty
+MRVL,53981769728,"Marvell Technology, Inc.",Technology,Semiconductors
+GM,43553005568,General Motors Company,Consumer Cyclical,Auto Manufacturers
+AXON,48901124096,"Axon Enterprise, Inc.",Industrials,Aerospace & Defense
+NXPI,47529619456,NXP Semiconductors N.V.,Technology,Semiconductors
+E,44186398720,Eni S.p.A.,Energy,Oil & Gas Integrated
+SU,44598894592,Suncor Energy Inc.,Energy,Oil & Gas Integrated
+HMC,44450410496,"Honda Motor Co., Ltd.",Consumer Cyclical,Auto Manufacturers
+DFS,47892078592,Discover Financial Services,Financial Services,Credit Services
+MSCI,43004628992,MSCI Inc.,Financial Services,Financial Data & Stock Exchanges
+EW,44312367104,Edwards Lifesciences Corporation,Healthcare,Medical Devices
+TGT,44241035264,Target Corporation,Consumer Defensive,Discount Stores
+NDAQ,44884856832,"Nasdaq, Inc.",Financial Services,Financial Data & Stock Exchanges
+PEG,39660363776,Public Service Enterprise Group Incorporated,Utilities,Utilities - Regulated Electric
+CCEP,41228738560,Coca-Cola Europacific Partners PLC,Consumer Defensive,Beverages - Non-Alcoholic
+VRSK,41129832448,"Verisk Analytics, Inc.",Industrials,Consulting Services
+FIS,41466007552,"Fidelity National Information Services, Inc.",Technology,Information Technology Services
+PSX,43656876032,Phillips 66,Energy,Oil & Gas Refining & Marketing
+RBLX,50251091968,Roblox Corporation,Communication Services,Electronic Gaming & Multimedia
+CTVA,42777227264,"Corteva, Inc.",Basic Materials,Agricultural Inputs
+FANG,40233496576,"Diamondback Energy, Inc.",Energy,Oil & Gas E&P
+HES,40924807168,Hess Corporation,Energy,Oil & Gas E&P
+VST,47377063936,Vistra Corp.,Utilities,Utilities - Independent Power Producers
+XEL,40817377280,Xcel Energy Inc.,Utilities,Utilities - Regulated Electric
+FLUT,43938770944,Flutter Entertainment plc,Consumer Cyclical,Gambling
+MPC,44097216512,Marathon Petroleum Corporation,Energy,Oil & Gas Refining & Marketing
+GLNCY,39484997632,Glencore plc,Basic Materials,Other Industrial Metals & Mining
+LHX,41081384960,"L3Harris Technologies, Inc.",Industrials,Aerospace & Defense
+YUM,41538023424,"Yum! Brands, Inc.",Consumer Cyclical,Restaurants
+ED,39643369472,"Consolidated Edison, Inc.",Utilities,Utilities - Regulated Electric
+PWR,47613501440,"Quanta Services, Inc.",Industrials,Engineering & Construction
+IFNNY,44275376128,Infineon Technologies AG,Technology,Semiconductors
+VALE,40129368064,Vale S.A.,Basic Materials,Other Industrial Metals & Mining
+WTKWY,41296162816,Wolters Kluwer N.V.,Industrials,Specialty Business Services
+OXY,39865577472,Occidental Petroleum Corporation,Energy,Oil & Gas E&P
+TEL,44461289472,TE Connectivity plc,Technology,Electronic Components
+OTIS,38409965568,Otis Worldwide Corporation,Industrials,Specialty Industrial Machinery
+CPNG,43750658048,"Coupang, Inc.",Consumer Cyclical,Internet Retail
+CMI,41302241280,Cummins Inc.,Industrials,Specialty Industrial Machinery
+TRGP,35114782720,Targa Resources Corp.,Energy,Oil & Gas Midstream
+BKR,36756824064,Baker Hughes Company,Energy,Oil & Gas Equipment & Services
+TCOM,39686385664,Trip.com Group Limited,Consumer Cyclical,Travel Services
+URI,43250335744,"United Rentals, Inc.",Industrials,Rental & Leasing Services
+PCG,37206724608,PG&E Corporation,Utilities,Utilities - Regulated Electric
+F,40878931968,Ford Motor Company,Consumer Cyclical,Auto Manufacturers
+EA,39379382272,Electronic Arts Inc.,Communication Services,Electronic Gaming & Multimedia
+NET,43051659264,"Cloudflare, Inc.",Technology,Software - Infrastructure
+DHI,39107211264,"D.R. Horton, Inc.",Consumer Cyclical,Residential Construction
+HOOD,42879168512,"Robinhood Markets, Inc.",Financial Services,Capital Markets
+SVNDY,39683551232,"Seven & i Holdings Co., Ltd.",Consumer Defensive,Grocery Stores
+TTWO,38740873216,"Take-Two Interactive Software, Inc.",Communication Services,Electronic Gaming & Multimedia
+ABEV,40544174080,Ambev S.A.,Consumer Defensive,Beverages - Brewers
+WPM,36675330048,Wheaton Precious Metals Corp.,Basic Materials,Gold
+ANYYY,38665207808,"Aena S.M.E., S.A.",Industrials,Airports & Air Services
+GRMN,36925509632,Garmin Ltd.,Technology,Scientific & Technical Instruments
+AME,39265595392,"AMETEK, Inc.",Industrials,Specialty Industrial Machinery
+ETR,36387483648,Entergy Corporation,Utilities,Utilities - Regulated Electric
+ARGX,39668588544,argenx SE,Healthcare,Biotechnology
+GLW,39059087360,Corning Incorporated,Technology,Electronic Components
+PRU,36682207232,"Prudential Financial, Inc.",Financial Services,Insurance - Life
+CBRE,37731147776,"CBRE Group, Inc.",Real Estate,Real Estate Services
+BSBR,38342598656,Banco Santander (Brasil) S.A.,Financial Services,Banks - Regional
+SYY,34295707648,Sysco Corporation,Consumer Defensive,Food Distribution
+DNZOY,37188624384,DENSO Corporation,Consumer Cyclical,Auto Parts
+VEEV,38475976704,Veeva Systems Inc.,Healthcare,Health Information Services
+KHC,33896583168,The Kraft Heinz Company,Consumer Defensive,Packaged Foods
+ACGL,34735489024,Arch Capital Group Ltd.,Financial Services,Insurance - Diversified
+GWLIF,34894249984,Great-West Lifeco Inc.,Financial Services,Insurance - Life
+VLO,37249593344,Valero Energy Corporation,Energy,Oil & Gas Refining & Marketing
+VICI,33487140864,VICI Properties Inc.,Real Estate,REIT - Diversified
+WEC,34659446784,"WEC Energy Group, Inc.",Utilities,Utilities - Regulated Electric
+CTSH,38301593600,Cognizant Technology Solutions Corporation,Technology,Information Technology Services
+HIG,35700383744,"The Hartford Insurance Group, Inc.",Financial Services,Insurance - Property & Casualty
+BRO,31690246144,"Brown & Brown, Inc.",Financial Services,Insurance Brokers
+CSGP,32890310656,"CoStar Group, Inc.",Real Estate,Real Estate Services
+XYZ,28616833024,"Block, Inc.",Technology,Software - Infrastructure
+IDXX,37951094784,"IDEXX Laboratories, Inc.",Healthcare,Diagnostics & Research
+IMO,35012112384,Imperial Oil Limited,Energy,Oil & Gas Integrated
+GOLD,31662622720,Barrick Gold Corporation,Basic Materials,Gold
+FER,35681603584,Ferrovial SE,Industrials,Infrastructure Operations
+DKILY,34959962112,"Daikin Industries,Ltd.",Industrials,Building Products & Equipment
+STZ,33289449472,"Constellation Brands, Inc.",Consumer Defensive,Beverages - Brewers
+HSY,33095364608,The Hershey Company,Consumer Defensive,Confectioners
+FRFHF,35480526848,Fairfax Financial Holdings Limited,Financial Services,Insurance - Property & Casualty
+FNV,31761117184,Franco-Nevada Corporation,Basic Materials,Gold
+HUM,31196727296,Humana Inc.,Healthcare,Healthcare Plans
+FERG,34570170368,Ferguson Enterprises Inc.,Industrials,Industrial Distribution
+CAH,36121661440,"Cardinal Health, Inc.",Healthcare,Medical Distribution
+ODFL,33521346560,"Old Dominion Freight Line, Inc.",Industrials,Trucking
+VMC,35278372864,Vulcan Materials Company,Basic Materials,Building Materials
+WTW,30941679616,Willis Towers Watson Public Limited Company,Financial Services,Insurance Brokers
+SLF,34097203200,Sun Life Financial Inc.,Financial Services,Insurance - Diversified
+DDOG,36260073472,"Datadog, Inc.",Technology,Software - Application
+EXR,33139355648,Extra Space Storage Inc.,Real Estate,REIT - Industrial
+DIA,33556566016,SPDR Dow Jones Industrial Average ETF Trust,,
+RMD,35183149056,ResMed Inc.,Healthcare,Medical Instruments & Supplies
+GIS,30353524736,"General Mills, Inc.",Consumer Defensive,Packaged Foods
+EBAY,31613896704,eBay Inc.,Consumer Cyclical,Internet Retail
+IT,32942036992,"Gartner, Inc.",Technology,Information Technology Services
+LULU,33326467072,lululemon athletica inc.,Consumer Cyclical,Apparel Retail
+ZS,35659468800,"Zscaler, Inc.",Technology,Software - Infrastructure
+EFX,32829519872,Equifax Inc.,Industrials,Consulting Services
+TPL,30946504704,Texas Pacific Land Corporation,Energy,Oil & Gas E&P
+CHT,32643352576,"Chunghwa Telecom Co., Ltd.",Communication Services,Telecom Services
+EQT,31038756864,EQT Corporation,Energy,Oil & Gas E&P
+CNC,29935796224,Centene Corporation,Healthcare,Healthcare Plans
+ALNY,33572071424,"Alnylam Pharmaceuticals, Inc.",Healthcare,Biotechnology
+LYV,31004141568,"Live Nation Entertainment, Inc.",Communication Services,Entertainment
+VTR,30038392832,"Ventas, Inc.",Real Estate,REIT - Healthcare Facilities
+HEI,32013953024,HEICO Corporation,Industrials,Aerospace & Defense
+MLM,32300916736,"Martin Marietta Materials, Inc.",Basic Materials,Building Materials
+IR,30957717504,Ingersoll Rand Inc.,Industrials,Specialty Industrial Machinery
+BIDU,31004534784,"Baidu, Inc.",Communication Services,Internet Content & Information
+TW,30986903552,Tradeweb Markets Inc.,Financial Services,Capital Markets
+WAB,32751804416,Westinghouse Air Brake Technologies Corporation,Industrials,Railroads
+A,30970738688,"Agilent Technologies, Inc.",Healthcare,Diagnostics & Research
+CQP,29372033024,"Cheniere Energy Partners, L.P.",Energy,Oil & Gas Midstream
+ONC,29512534016,"BeiGene, Ltd.",Healthcare,Biotechnology
+AVB,30210699264,"AvalonBay Communities, Inc.",Real Estate,REIT - Residential
+VRT,36204974080,Vertiv Holdings Co,Industrials,Electrical Equipment & Parts
+WIT,30338060288,Wipro Limited,Technology,Information Technology Services
+AWK,28688216064,"American Water Works Company, Inc.",Utilities,Utilities - Regulated Water
+GEHC,32291665920,GE HealthCare Technologies Inc.,Healthcare,Health Information Services
+HUBS,33466685440,"HubSpot, Inc.",Technology,Software - Application
+QSR,30199445504,Restaurant Brands International Inc.,Consumer Cyclical,Restaurants
+NOK,27271729152,Nokia Oyj,Technology,Communication Equipment
+ATEYY,32489074688,Advantest Corporation,Technology,Semiconductor Equipment & Materials
+NVZMY,30612453376,Novonesis A/S,Basic Materials,Specialty Chemicals
+LEN,28888047616,Lennar Corporation,Consumer Cyclical,Residential Construction
+K,28611502080,Kellanova,Consumer Defensive,Packaged Foods
+DTE,28296882176,DTE Energy Company,Utilities,Utilities - Regulated Electric
+BR,27297052672,"Broadridge Financial Solutions, Inc.",Technology,Information Technology Services
+YAHOY,26320740352,LY Corporation,Consumer Cyclical,Internet Retail
+RJF,28791455744,"Raymond James Financial, Inc.",Financial Services,Asset Management
+EQR,28086126592,Equity Residential,Real Estate,REIT - Residential
+STLA,27623995392,Stellantis N.V.,Consumer Cyclical,Auto Manufacturers
+TEF,28659761152,"Telefónica, S.A.",Communication Services,Telecom Services
+MDY,29701384192,SPDR S&P MIDCAP 400 ETF Trust,,
+MRAAY,25812310016,"Murata Manufacturing Co., Ltd.",Technology,Electronic Components
+ERIC,27647016960,Telefonaktiebolaget LM Ericsson (publ),Technology,Communication Equipment
+XYL,30236362752,Xylem Inc.,Industrials,Specialty Industrial Machinery
+SAXPY,27231963136,Sampo Oyj,Financial Services,Insurance - Diversified
+PUK,28283166720,Prudential plc,Financial Services,Insurance - Life
+ROL,27464888320,"Rollins, Inc.",Consumer Cyclical,Personal Services
+WRB,27545038848,W. R. Berkley Corporation,Financial Services,Insurance - Property & Casualty
+AEE,26889445376,Ameren Corporation,Utilities,Utilities - Regulated Electric
+DAL,28860612608,"Delta Air Lines, Inc.",Industrials,Airlines
+OWL,28103055360,Blue Owl Capital Inc.,Financial Services,Asset Management
+TSCO,27027306496,Tractor Supply Company,Consumer Cyclical,Specialty Retail
+DXCM,32003774464,"DexCom, Inc.",Healthcare,Medical Devices
+PPL,26739177472,PPL Corporation,Utilities,Utilities - Regulated Electric
+ROK,28680966144,"Rockwell Automation, Inc.",Industrials,Specialty Industrial Machinery
+ANSS,28903297024,"ANSYS, Inc.",Technology,Software - Application
+MTB,28496990208,M&T Bank Corporation,Financial Services,Banks - Regional
+EJPRY,25317920768,East Japan Railway Company,Industrials,Railroads
+NTR,27764695040,Nutrien Ltd.,Basic Materials,Agricultural Inputs
+NUE,28349503488,Nucor Corporation,Basic Materials,Steel
+CHD,22873464832,"Church & Dwight Co., Inc.",Consumer Defensive,Household & Personal Products
+DD,28143988736,"DuPont de Nemours, Inc.",Basic Materials,Specialty Chemicals
+NTDTY,29499973632,NTT DATA Group Corporation,Technology,Information Technology Services
+IQV,27060826112,IQVIA Holdings Inc.,Healthcare,Diagnostics & Research
+ATO,25634572288,Atmos Energy Corporation,Utilities,Utilities - Regulated Gas
+MPWR,30492383232,"Monolithic Power Systems, Inc.",Technology,Semiconductors
+FUJIY,25517770752,FUJIFILM Holdings Corporation,Industrials,Conglomerates
+IRM,28253413376,Iron Mountain Incorporated,Real Estate,REIT - Specialty
+CCL,26514610176,Carnival Corporation & plc,Consumer Cyclical,Travel Services
+SBAC,25997393920,SBA Communications Corporation,Real Estate,REIT - Specialty
+TTD,26588966912,"The Trade Desk, Inc.",Technology,Software - Application
+LPLA,26676025344,LPL Financial Holdings Inc.,Financial Services,Capital Markets
+CVNA,30067075072,Carvana Co.,Consumer Cyclical,Auto & Truck Dealerships
+IP,24197836800,International Paper Company,Consumer Cyclical,Packaging & Containers
+BEKE,25122637824,KE Holdings Inc.,Real Estate,Real Estate Services
+BNTX,25226842112,BioNTech SE,Healthcare,Biotechnology
+EXE,25197215744,Expand Energy Corporation,Energy,Oil & Gas E&P
+TYL,23717924864,"Tyler Technologies, Inc.",Technology,Software - Application
+GDDY,25116360704,GoDaddy Inc.,Technology,Software - Infrastructure
+FE,24869650432,FirstEnergy Corp.,Utilities,Utilities - Regulated Electric
+PUBGY,25982427136,Publicis Groupe S.A.,Communication Services,Advertising Agencies
+CNP,25449865216,"CenterPoint Energy, Inc.",Utilities,Utilities - Regulated Electric
+RYAAY,26510272512,Ryanair Holdings plc,Industrials,Airlines
+FTS,24357453824,Fortis Inc.,Utilities,Utilities - Regulated Electric
+WDS,25234386944,Woodside Energy Group Ltd,Energy,Oil & Gas E&P
+STT,25817528320,State Street Corporation,Financial Services,Asset Management
+RKT,25079726080,"Rocket Companies, Inc.",Financial Services,Mortgage Finance
+PPRUY,25450721280,Kering SA,Consumer Cyclical,Luxury Goods
+KEYS,25665892352,"Keysight Technologies, Inc.",Technology,Scientific & Technical Instruments
+VOD,24459948032,Vodafone Group Public Limited Company,Communication Services,Telecom Services
+LVS,26901325824,Las Vegas Sands Corp.,Consumer Cyclical,Resorts & Casinos
+LI,25772922880,Li Auto Inc.,Consumer Cyclical,Auto Manufacturers
+DRI,23860430848,"Darden Restaurants, Inc.",Consumer Cyclical,Restaurants
+GIB,23459481600,CGI Inc.,Technology,Information Technology Services
+CHKP,23575676928,Check Point Software Technologies Ltd.,Technology,Software - Infrastructure
+VRSN,26676049920,"VeriSign, Inc.",Technology,Software - Infrastructure
+FCNCA,24379813888,"First Citizens BancShares, Inc.",Financial Services,Banks - Regional
+MKL,23858855936,Markel Group Inc.,Financial Services,Insurance - Property & Casualty
+ADM,22975463424,Archer-Daniels-Midland Company,Consumer Defensive,Farm Products
+PPG,25078468608,"PPG Industries, Inc.",Basic Materials,Specialty Chemicals
+IX,22859741184,ORIX Corporation,Financial Services,Financial Conglomerates
+FANUY,24134234112,Fanuc Corporation,Industrials,Specialty Industrial Machinery
+TU,22757824512,TELUS Corporation,Communication Services,Telecom Services
+PHG,23670980608,Koninklijke Philips N.V.,Healthcare,Medical Devices
+FTV,22959028224,Fortive Corporation,Technology,Scientific & Technical Instruments
+HPQ,24463142912,HP Inc.,Technology,Computer Hardware
+DOV,23838271488,Dover Corporation,Industrials,Specialty Industrial Machinery
+EIX,21115848704,Edison International,Utilities,Utilities - Regulated Electric
+VLTO,23696406528,Veralto Corporation,Industrials,Pollution & Treatment Controls
+CBOE,23705976832,"Cboe Global Markets, Inc.",Financial Services,Financial Data & Stock Exchanges
+TME,21454125056,Tencent Music Entertainment Group,Communication Services,Internet Content & Information
+CVE,21954336768,Cenovus Energy Inc.,Energy,Oil & Gas Integrated
+PBA,22693679104,Pembina Pipeline Corporation,Energy,Oil & Gas Midstream
+CPAY,23279575040,"Corpay, Inc.",Technology,Software - Infrastructure
+UAL,24191334400,"United Airlines Holdings, Inc.",Industrials,Airlines
+STE,22087761920,STERIS plc,Healthcare,Medical Devices
+CMS,21809131520,CMS Energy Corporation,Utilities,Utilities - Regulated Electric
+CUK,22572064768,Carnival Corporation & plc,Consumer Cyclical,Travel Services
+BBD,24413521920,Banco Bradesco S.A.,Financial Services,Banks - Regional
+ZM,23852171264,Zoom Communications Inc.,Technology,Software - Application
+TDY,22437638144,Teledyne Technologies Incorporated,Technology,Scientific & Technical Instruments
+ERIE,19049734144,Erie Indemnity Company,Financial Services,Insurance Brokers
+SW,21547167744,Smurfit Westrock Plc,Consumer Cyclical,Packaging & Containers
+TSN,21653032960,"Tyson Foods, Inc.",Consumer Defensive,Farm Products
+HKHHY,22189158400,Heineken Holding N.V.,Consumer Defensive,Beverages - Brewers
+PHYS,21454700544,Sprott Physical Gold Trust,,
+MTD,22925307904,Mettler-Toledo International Inc.,Healthcare,Diagnostics & Research
+MCHP,25766907904,Microchip Technology Incorporated,Technology,Semiconductors
+AU,20232237056,AngloGold Ashanti plc,Basic Materials,Gold
+MT,23332972544,ArcelorMittal S.A.,Basic Materials,Steel
+KB,24091926528,KB Financial Group Inc.,Financial Services,Banks - Regional
+ES,21595432960,Eversource Energy,Utilities,Utilities - Regulated Electric
+CINF,22442129408,Cincinnati Financial Corporation,Financial Services,Insurance - Property & Casualty
+FOXA,21653661696,Fox Corporation,Communication Services,Entertainment
+NVR,20977473536,"NVR, Inc.",Consumer Cyclical,Residential Construction
+IOT,23564154880,Samsara Inc.,Technology,Software - Infrastructure
+CJPRY,21886365696,Central Japan Railway Company,Industrials,Railroads
+NRG,23755720704,"NRG Energy, Inc.",Utilities,Utilities - Independent Power Producers
+DG,19861215232,Dollar General Corporation,Consumer Defensive,Discount Stores
+INVH,21741301760,Invitation Homes Inc.,Real Estate,REIT - Residential
+VG,21340960768,,Energy,Oil & Gas Midstream
+GFI,20224356352,Gold Fields Limited,Basic Materials,Gold
+WSO,18969993216,"Watsco, Inc.",Industrials,Industrial Distribution
+DVN,20226265088,Devon Energy Corporation,Energy,Oil & Gas E&P
+PHM,20936605696,"PulteGroup, Inc.",Consumer Cyclical,Residential Construction
+BCE,19773147136,BCE Inc.,Communication Services,Telecom Services
+DIDIY,19556710400,DiDi Global Inc.,Technology,Software - Application
+LII,19925069824,Lennox International Inc.,Industrials,Building Products & Equipment
+DOW,21502742528,Dow Inc.,Basic Materials,Chemicals
+MKC,20385067008,"McCormick & Company, Incorporated",Consumer Defensive,Packaged Foods
+HPE,22146959360,Hewlett Packard Enterprise Company,Technology,Communication Equipment
+CDW,21982689280,CDW Corporation,Technology,Information Technology Services
+TOST,20810213376,"Toast, Inc.",Technology,Software - Infrastructure
+NTRA,21298241536,"Natera, Inc.",Healthcare,Diagnostics & Research
+EXPE,20638740480,"Expedia Group, Inc.",Consumer Cyclical,Travel Services
+KOF,19661668352,"Coca-Cola FEMSA, S.A.B. de C.V.",Consumer Defensive,Beverages - Non-Alcoholic
+CRWV,24001038336,"CoreWeave, Inc. Class A Common Stock",Technology,Software - Infrastructure
+EL,21363474432,The Estée Lauder Companies Inc.,Consumer Defensive,Household & Personal Products
+TELNY,20647043072,Telenor ASA,Communication Services,Telecom Services
+WAT,20850302976,Waters Corporation,Healthcare,Diagnostics & Research
+CTRA,19614345216,Coterra Energy Inc.,Energy,Oil & Gas E&P
+WBD,21126594560,"Warner Bros. Discovery, Inc.",Communication Services,Entertainment
+SMMT,20720379904,Summit Therapeutics Inc.,Healthcare,Biotechnology
+TROW,20263815168,"T. Rowe Price Group, Inc.",Financial Services,Asset Management
+ZBH,20254959616,"Zimmer Biomet Holdings, Inc.",Healthcare,Medical Devices
+SMCI,20117755904,"Super Micro Computer, Inc.",Technology,Computer Hardware
+ESS,20219105280,"Essex Property Trust, Inc.",Real Estate,REIT - Residential
+DGX,19865448448,Quest Diagnostics Incorporated,Healthcare,Diagnostics & Research
+MAA,20152365056,"Mid-America Apartment Communities, Inc.",Real Estate,REIT - Residential
+SSNC,19165636608,"SS&C Technologies Holdings, Inc.",Technology,Software - Application
+RYAN,17545484288,"Ryan Specialty Holdings, Inc.",Financial Services,Insurance - Specialty
+WY,18983553024,Weyerhaeuser Company,Real Estate,REIT - Specialty
+SYF,20623996928,Synchrony Financial,Financial Services,Credit Services
+IFF,20218408960,International Flavors & Fragrances Inc.,Basic Materials,Specialty Chemicals
+STM,20936886272,STMicroelectronics N.V.,Technology,Semiconductors
+XPEV,19044313088,XPeng Inc.,Consumer Cyclical,Auto Manufacturers
+LYB,18763331584,LyondellBasell Industries N.V.,Basic Materials,Specialty Chemicals
+NI,18494775296,NiSource Inc.,Utilities,Utilities - Regulated Gas
+HUBB,18995843072,Hubbell Incorporated,Industrials,Electrical Equipment & Parts
+LH,20729143296,Labcorp Holdings Inc.,Healthcare,Diagnostics & Research
+AER,19350999040,AerCap Holdings N.V.,Industrials,Rental & Leasing Services
+RPRX,18889220096,Royalty Pharma plc,Healthcare,Biotechnology
+EC,16755013632,Ecopetrol S.A.,Energy,Oil & Gas Integrated
+RDDT,21000497152,"Reddit, Inc.",Communication Services,Internet Content & Information
+UI,20734865408,Ubiquiti Inc.,Technology,Communication Equipment
+L,18533234688,Loews Corporation,Financial Services,Insurance - Property & Casualty
+KKPNY,18107533312,Koninklijke KPN N.V.,Communication Services,Telecom Services
+HAL,17710129152,Halliburton Company,Energy,Oil & Gas Equipment & Services
+RBA,18976960512,"RB Global, Inc.",Industrials,Specialty Business Services
+LDOS,19076960256,"Leidos Holdings, Inc.",Technology,Information Technology Services
+STLD,20227100672,"Steel Dynamics, Inc.",Basic Materials,Steel
+CCJ,20464250880,Cameco Corporation,Energy,Uranium
+KGC,17312288768,Kinross Gold Corporation,Basic Materials,Gold
+TS,17982699520,Tenaris S.A.,Energy,Oil & Gas Equipment & Services
+MOH,17237768192,"Molina Healthcare, Inc.",Healthcare,Healthcare Plans
+GPN,19387322368,Global Payments Inc.,Industrials,Specialty Business Services
+GFL,18482034688,GFL Environmental Inc.,Industrials,Waste Management
+RF,18923950080,Regions Financial Corporation,Financial Services,Banks - Regional
+VIK,18763405312,Viking Holdings Ltd,Consumer Cyclical,Travel Services
+SGSOY,18624849920,SGS SA,Industrials,Consulting Services
+ESLT,18188519424,Elbit Systems Ltd.,Industrials,Aerospace & Defense
+EME,19384489984,"EMCOR Group, Inc.",Industrials,Engineering & Construction
+PTC,19202473984,PTC Inc.,Technology,Software - Application
+ASX,19763107840,"ASE Technology Holding Co., Ltd.",Technology,Semiconductors
+NTRS,18971443200,Northern Trust Corporation,Financial Services,Asset Management
+PODD,18083686400,Insulet Corporation,Healthcare,Medical Devices
+GFS,20126033920,GLOBALFOUNDRIES Inc.,Technology,Semiconductors
+FITBI,17740310528,Fifth Third Bancorp,Financial Services,Banks - Regional
+WSM,19830603776,"Williams-Sonoma, Inc.",Consumer Cyclical,Specialty Retail
+BIIB,18100602880,Biogen Inc.,Healthcare,Drug Manufacturers - General
+FNF,17854347264,"Fidelity National Financial, Inc.",Financial Services,Insurance - Specialty
+CLX,17133265920,The Clorox Company,Consumer Defensive,Household & Personal Products
+GRAB,19922542592,Grab Holdings Limited,Technology,Software - Application
+NJDCY,20725237760,Nidec Corporation,Industrials,Specialty Industrial Machinery
+DLTR,18129346560,"Dollar Tree, Inc.",Consumer Defensive,Discount Stores
+PINS,18170032128,"Pinterest, Inc.",Communication Services,Internet Content & Information
+OKTA,19599779840,"Okta, Inc.",Technology,Software - Infrastructure
+UMC,18460260352,United Microelectronics Corporation,Technology,Semiconductors
+TECK,17618305024,Teck Resources Limited,Basic Materials,Other Industrial Metals & Mining
+NTAP,19054788608,"NetApp, Inc.",Technology,Computer Hardware
+JBSAY,17388357632,JBS S.A.,Consumer Defensive,Packaged Foods
+DKNG,17123492864,DraftKings Inc.,Consumer Cyclical,Gambling
+ULTA,17869989888,"Ulta Beauty, Inc.",Consumer Cyclical,Specialty Retail
+KSPI,17169168384,Joint Stock Company Kaspi.kz,Technology,Software - Infrastructure
+PKG,16854323200,Packaging Corporation of America,Consumer Cyclical,Packaging & Containers
+SHG,17924605952,"Shinhan Financial Group Co., Ltd.",Financial Services,Banks - Regional
+CASY,16696556544,"Casey's General Stores, Inc.",Consumer Cyclical,Specialty Retail
+HRL,16117950464,Hormel Foods Corporation,Consumer Defensive,Packaged Foods
+NMR,16436527104,"Nomura Holdings, Inc.",Financial Services,Capital Markets
+NTNX,19343661056,"Nutanix, Inc.",Technology,Software - Infrastructure
+PFG,17224595456,"Principal Financial Group, Inc.",Financial Services,Asset Management
+YUMC,16458100736,"Yum China Holdings, Inc.",Consumer Cyclical,Restaurants
+DPZ,16593772544,"Domino's Pizza, Inc.",Consumer Cyclical,Restaurants
+TPG,17253027840,TPG Inc.,Financial Services,Asset Management
+FDS,16490291200,FactSet Research Systems Inc.,Financial Services,Financial Data & Stock Exchanges
+GWRE,17588944896,"Guidewire Software, Inc.",Technology,Software - Application
+CYBR,17670604800,CyberArk Software Ltd.,Technology,Software - Infrastructure
+DECK,17748451328,Deckers Outdoor Corporation,Consumer Cyclical,Footwear & Accessories
+SNA,16573633536,Snap-on Incorporated,Industrials,Tools & Accessories
+OMVKY,16777278464,OMV Aktiengesellschaft,Energy,Oil & Gas Integrated
+STX,19751034880,Seagate Technology Holdings plc,Technology,Computer Hardware
+SUI,17595598848,"Sun Communities, Inc.",Real Estate,REIT - Residential
+TEVA,18569283584,Teva Pharmaceutical Industries Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+GPC,16695049216,Genuine Parts Company,Consumer Cyclical,Auto Parts
+BF-A,16276636672,Brown-Forman Corporation,Consumer Defensive,Beverages - Wineries & Distilleries
+KEY,17224724480,KeyCorp,Financial Services,Banks - Regional
+SFM,17020546048,"Sprouts Farmers Market, Inc.",Consumer Defensive,Grocery Stores
+CFG,16760534016,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional
+COO,16456461312,"The Cooper Companies, Inc.",Healthcare,Medical Instruments & Supplies
+CRBG,16935940096,"Corebridge Financial, Inc.",Financial Services,Asset Management
+EDPFY,16390081536,"EDP, S.A.",Utilities,Utilities - Diversified
+EVRG,15928399872,"Evergy, Inc.",Utilities,Utilities - Regulated Electric
+LNT,15712920576,Alliant Energy Corporation,Utilities,Utilities - Regulated Electric
+CSL,16705838080,Carlisle Companies Incorporated,Industrials,Building Products & Equipment
+IHG,17520334848,InterContinental Hotels Group PLC,Consumer Cyclical,Lodging
+NNGRY,16425426944,NN Group N.V.,Financial Services,Insurance - Diversified
+NWSA,16429846528,News Corporation,Communication Services,Entertainment
+UDR,16516195328,"UDR, Inc.",Real Estate,REIT - Residential
+AMH,16570619904,American Homes 4 Rent,Real Estate,REIT - Residential
+DOCU,16631571456,"DocuSign, Inc.",Technology,Software - Application
+DUOL,22099861504,"Duolingo, Inc.",Technology,Software - Application
+WST,15180214272,"West Pharmaceutical Services, Inc.",Healthcare,Medical Instruments & Supplies
+BJ,15457562624,"BJ's Wholesale Club Holdings, Inc.",Consumer Defensive,Discount Stores
+ZG,16458828800,"Zillow Group, Inc.",Communication Services,Internet Content & Information
+GEN,15980685312,Gen Digital Inc.,Technology,Software - Infrastructure
+EG,14861690880,"Everest Group, Ltd.",Financial Services,Insurance - Reinsurance
+ZTO,15138011136,ZTO Express (Cayman) Inc.,Industrials,Integrated Freight & Logistics
+CHWY,15163969536,"Chewy, Inc.",Consumer Cyclical,Internet Retail
+WMG,15746123776,Warner Music Group Corp.,Communication Services,Entertainment
+TLK,15973798912,Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk,Communication Services,Telecom Services
+DKS,15474437120,"DICK'S Sporting Goods, Inc.",Consumer Cyclical,Specialty Retail
+FFIV,15569206272,"F5, Inc.",Technology,Software - Infrastructure
+FSLR,13999631360,"First Solar, Inc.",Technology,Solar
+TRU,16583499776,TransUnion,Financial Services,Financial Data & Stock Exchanges
+BAP,15983256576,Credicorp Ltd.,Financial Services,Banks - Regional
+EQH,15334542336,"Equitable Holdings, Inc.",Financial Services,Asset Management
+RS,15630235648,"Reliance, Inc.",Basic Materials,Steel
+ON,17688072192,ON Semiconductor Corporation,Technology,Semiconductors
+EXPD,15510059008,"Expeditors International of Washington, Inc.",Industrials,Integrated Freight & Logistics
+VIV,16013101056,Telefônica Brasil S.A.,Communication Services,Telecom Services
+WES,13853391872,"Western Midstream Partners, LP",Energy,Oil & Gas Midstream
+JBL,16140394496,Jabil Inc.,Technology,Electronic Components
+BAX,15751896064,Baxter International Inc.,Healthcare,Medical Instruments & Supplies
+USFD,15652104192,US Foods Holding Corp.,Consumer Defensive,Food Distribution
+WLMIY,14714115072,Wilmar International Limited,Consumer Defensive,Packaged Foods
+TRMB,15410010112,Trimble Inc.,Technology,Scientific & Technical Instruments
+BCH,14900006912,Banco de Chile,Financial Services,Banks - Regional
+SGIOY,14436123648,"Shionogi & Co., Ltd.",Healthcare,Drug Manufacturers - Specialty & Generic
+AFRM,16753876992,"Affirm Holdings, Inc.",Technology,Software - Infrastructure
+J,15523873792,Jacobs Solutions Inc.,Industrials,Engineering & Construction
+EBR,17775357952,Centrais Elétricas Brasileiras S.A. - Eletrobrás,Utilities,Utilities - Renewable
+OMC,15092926464,Omnicom Group Inc.,Communication Services,Advertising Agencies
+LUV,17010499584,Southwest Airlines Co.,Industrials,Airlines
+PNR,15348724736,Pentair plc,Industrials,Specialty Industrial Machinery
+BAH,14861950976,Booz Allen Hamilton Holding Corporation,Industrials,Consulting Services
+BURL,14865592320,"Burlington Stores, Inc.",Consumer Cyclical,Apparel Retail
+CNH,15475694592,CNH Industrial N.V.,Industrials,Farm & Heavy Construction Machinery
+ARCC,14344344576,Ares Capital Corporation,Financial Services,Asset Management
+LINE,11364418560,"Lineage, Inc.",Real Estate,REIT - Industrial
+KIM,14351020032,Kimco Realty Corporation,Real Estate,REIT - Retail
+FMS,15027139584,Fresenius Medical Care AG,Healthcare,Medical Care Facilities
+ONON,15839013888,On Holding AG,Consumer Cyclical,Footwear & Accessories
+RCI,14027464704,Rogers Communications Inc.,Communication Services,Telecom Services
+AMCR,21355288576,Amcor plc,Consumer Cyclical,Packaging & Containers
+YPF,11904064512,YPF Sociedad Anónima,Energy,Oil & Gas Integrated
+AVY,13400861696,Avery Dennison Corporation,Consumer Cyclical,Packaging & Containers
+UNM,13997588480,Unum Group,Financial Services,Insurance - Life
+WPC,13508629504,W. P. Carey Inc.,Real Estate,REIT - Diversified
+GLPI,12972116992,"Gaming and Leisure Properties, Inc.",Real Estate,REIT - Specialty
+PKX,13965639680,POSCO Holdings Inc.,Basic Materials,Steel
+SNAP,14252446720,Snap Inc.,Communication Services,Internet Content & Information
+BEP,14222952448,Brookfield Renewable Partners L.P.,Utilities,Utilities - Renewable
+PSTG,15650521088,"Pure Storage, Inc.",Technology,Computer Hardware
+VDMCY,14709344256,Vodacom Group Limited,Communication Services,Telecom Services
+RPM,14166340608,RPM International Inc.,Basic Materials,Specialty Chemicals
+BALL,14587699200,Ball Corporation,Consumer Cyclical,Packaging & Containers
+GGG,13910479872,Graco Inc.,Industrials,Specialty Industrial Machinery
+INSM,13145586688,Insmed Incorporated,Healthcare,Biotechnology
+ARE,12882490368,"Alexandria Real Estate Equities, Inc.",Real Estate,REIT - Office
+TPR,15062412288,"Tapestry, Inc.",Consumer Cyclical,Luxury Goods
+RIVN,15854988288,"Rivian Automotive, Inc.",Consumer Cyclical,Auto Manufacturers
+BLDR,12613076992,"Builders FirstSource, Inc.",Industrials,Building Products & Equipment
+BBY,14409465856,"Best Buy Co., Inc.",Consumer Cyclical,Specialty Retail
+BIP,14318267392,Brookfield Infrastructure Partners L.P.,Utilities,Utilities - Diversified
+CG,14709549056,The Carlyle Group Inc.,Financial Services,Asset Management
+REG,13336957952,Regency Centers Corporation,Real Estate,REIT - Retail
+DOC,12442278912,"Healthpeak Properties, Inc.",Real Estate,REIT - Healthcare Facilities
+BSY,13217104896,"Bentley Systems, Incorporated",Technology,Software - Application
+TWLO,15284194304,Twilio Inc.,Technology,Software - Infrastructure
+EMRAF,13073631232,Emera Incorporated,Utilities,Utilities - Regulated Electric
+MAS,13135357952,Masco Corporation,Industrials,Building Products & Equipment
+CNA,12933122048,CNA Financial Corporation,Financial Services,Insurance - Property & Casualty
+HOLX,12069284864,"Hologic, Inc.",Healthcare,Medical Instruments & Supplies
+UTHR,13288404992,United Therapeutics Corporation,Healthcare,Drug Manufacturers - Specialty & Generic
+SBS,13844021248,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,Utilities,Utilities - Regulated Water
+JBHT,13249423360,"J.B. Hunt Transport Services, Inc.",Industrials,Integrated Freight & Logistics
+DT,14356826112,"Dynatrace, Inc.",Technology,Software - Application
+RL,14368205824,Ralph Lauren Corporation,Consumer Cyclical,Apparel Manufacturing
+ACI,12626198528,"Albertsons Companies, Inc.",Consumer Defensive,Grocery Stores
+WDC,15591358464,Western Digital Corporation,Technology,Computer Hardware
+PPC,10940855296,Pilgrim's Pride Corporation,Consumer Defensive,Packaged Foods
+SGI,13067662336,Somnigroup International Inc.,Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+MDB,13935055872,"MongoDB, Inc.",Technology,Software - Infrastructure
+MNDY,14171843584,monday.com Ltd.,Technology,Software - Application
+IEX,13707567104,IDEX Corporation,Industrials,Specialty Industrial Machinery
+PRMB,12430633984,Primo Brands Corporation,Consumer Defensive,Beverages - Non-Alcoholic
+ELS,13152288768,"Equity LifeStyle Properties, Inc.",Real Estate,REIT - Residential
+FIX,15242241024,"Comfort Systems USA, Inc.",Industrials,Engineering & Construction
+SOFI,14022069248,"SoFi Technologies, Inc.",Financial Services,Credit Services
+JKHY,12695133184,"Jack Henry & Associates, Inc.",Technology,Information Technology Services
+PAA,11703794688,"Plains All American Pipeline, L.P.",Energy,Oil & Gas Midstream
+ACM,13580821504,AECOM,Industrials,Engineering & Construction
+AS,14256246784,"Amer Sports, Inc.",Consumer Cyclical,Leisure
+ALGN,13164677120,"Align Technology, Inc.",Healthcare,Medical Instruments & Supplies
+JBAXY,13623057408,Julius Bär Gruppe AG,Financial Services,Asset Management
+GMAB,13389729792,Genmab A/S,Healthcare,Biotechnology
+PAYC,12863207424,"Paycom Software, Inc.",Technology,Software - Application
+RGA,13069127680,"Reinsurance Group of America, Incorporated",Financial Services,Insurance - Reinsurance
+TKO,13572998144,"TKO Group Holdings, Inc.",Communication Services,Entertainment
+CF,13417240576,"CF Industries Holdings, Inc.",Basic Materials,Agricultural Inputs
+CPT,13133129728,Camden Property Trust,Real Estate,REIT - Residential
+SJM,12212415488,The J. M. Smucker Company,Consumer Defensive,Packaged Foods
+SYM,13568319488,Symbotic Inc.,Industrials,Specialty Industrial Machinery
+FLEX,14073289728,Flex Ltd.,Technology,Electronic Components
+NDEKY,12640867328,Nitto Denko Corporation,Basic Materials,Specialty Chemicals
+PFGC,12901878784,Performance Food Group Company,Consumer Defensive,Food Distribution
+CW,13480598528,Curtiss-Wright Corporation,Industrials,Aerospace & Defense
+POAHY,12579169280,Porsche Automobil Holding SE,Consumer Cyclical,Auto Manufacturers
+GME,12291830784,GameStop Corp.,Consumer Cyclical,Specialty Retail
+MORN,12540645376,"Morningstar, Inc.",Financial Services,Financial Data & Stock Exchanges
+APTV,12839538688,Aptiv PLC,Consumer Cyclical,Auto Parts
+RNR,11833650176,RenaissanceRe Holdings Ltd.,Financial Services,Insurance - Reinsurance
+RBRK,13916494848,,Technology,Software - Infrastructure
+CAG,11389856768,"Conagra Brands, Inc.",Consumer Defensive,Packaged Foods
+WLK,10259846144,Westlake Corporation,Basic Materials,Specialty Chemicals
+TXT,12821879808,Textron Inc.,Industrials,Aerospace & Defense
+TAP,11674032128,Molson Coors Beverage Company,Consumer Defensive,Beverages - Brewers
+AGI,10395896832,Alamos Gold Inc.,Basic Materials,Gold
+OC,12638623744,Owens Corning,Industrials,Building Products & Equipment
+RDEIY,10865688576,"Redeia Corporación, S.A.",Utilities,Utilities - Regulated Electric
+RGLD,11615416320,"Royal Gold, Inc.",Basic Materials,Gold
+POOL,11530072064,Pool Corporation,Industrials,Industrial Distribution
+THC,13749766144,Tenet Healthcare Corporation,Healthcare,Medical Care Facilities
+SSMXY,11457143808,Sysmex Corporation,Healthcare,Medical Devices
+BMRN,11895865344,BioMarin Pharmaceutical Inc.,Healthcare,Biotechnology
+ZBRA,13016158208,Zebra Technologies Corporation,Technology,Communication Equipment
+FUTU,13727880192,Futu Holdings Limited,Financial Services,Capital Markets
+RKUNY,12386794496,"Rakuten Group, Inc.",Consumer Cyclical,Internet Retail
+TER,12204007424,"Teradyne, Inc.",Technology,Semiconductor Equipment & Materials
+MMYT,12350475264,MakeMyTrip Limited,Consumer Cyclical,Travel Services
+PNDRY,11896230912,,Consumer Cyclical,Luxury Goods
+KNSL,10462155776,"Kinsale Capital Group, Inc.",Financial Services,Insurance - Property & Casualty
+ILMN,12325522432,"Illumina, Inc.",Healthcare,Diagnostics & Research
+JNPR,12244567040,"Juniper Networks, Inc.",Technology,Communication Equipment
+AUR,14383054848,"Aurora Innovation, Inc.",Technology,Information Technology Services
+UHS,11654331392,"Universal Health Services, Inc.",Healthcare,Medical Care Facilities
+SOLV,11698463744,Solventum Corporation,Healthcare,Medical Instruments & Supplies
+BSAC,11435850752,Banco Santander-Chile,Financial Services,Banks - Regional
+XPO,12928140288,"XPO, Inc.",Industrials,Trucking
+SNN,12566670336,Smith & Nephew plc,Healthcare,Medical Devices
+SCI,10897505280,Service Corporation International,Consumer Cyclical,Personal Services
+JPXGY,11527853056,"Japan Exchange Group, Inc.",Financial Services,Financial Data & Stock Exchanges
+ULS,11980712960,UL Solutions Inc.,Industrials,Specialty Business Services
+RTO,11987678208,Rentokil Initial plc,Industrials,Specialty Business Services
+BXP,11474104320,"BXP, Inc.",Real Estate,REIT - Office
+TKHVY,10424412160,Türk Hava Yollari Anonim Ortakligi,Industrials,Airlines
+CLH,11900564480,"Clean Harbors, Inc.",Industrials,Waste Management
+LAMR,11886070784,Lamar Advertising Company,Real Estate,REIT - Specialty
+RDY,11648041984,Dr. Reddy's Laboratories Limited,Healthcare,Drug Manufacturers - Specialty & Generic
+HTHT,10942375936,H World Group Limited,Consumer Cyclical,Lodging
+LBRDA,12794546176,Liberty Broadband Corporation,Communication Services,Telecom Services
+PNW,11261713408,Pinnacle West Capital Corporation,Utilities,Utilities - Regulated Electric
+KEP,11889191936,Korea Electric Power Corporation,Utilities,Utilities - Regulated Electric
+CART,11871019008,Maplebear Inc.,Consumer Cyclical,Internet Retail
+IHICY,12248192000,IHI Corporation,Industrials,Specialty Industrial Machinery
+WTRG,11216581632,"Essential Utilities, Inc.",Utilities,Utilities - Regulated Water
+RVTY,11292616704,"Revvity, Inc.",Healthcare,Diagnostics & Research
+INCY,12103931904,Incyte Corporation,Healthcare,Biotechnology
+OHI,10905536512,"Omega Healthcare Investors, Inc.",Real Estate,REIT - Healthcare Facilities
+ICLR,11360217088,ICON Public Limited Company,Healthcare,Diagnostics & Research
+DVA,10847717376,DaVita Inc.,Healthcare,Medical Care Facilities
+CPB,10692807680,The Campbell's Company,Consumer Defensive,Packaged Foods
+SUZ,11083871232,Suzano S.A.,Basic Materials,Paper & Paper Products
+ALLE,12126926848,Allegion plc,Industrials,Security & Protection Services
+NLY,11637170176,"Annaly Capital Management, Inc.",Real Estate,REIT - Mortgage
+HLI,11679810560,"Houlihan Lokey, Inc.",Financial Services,Capital Markets
+LKQ,10155542528,LKQ Corporation,Consumer Cyclical,Auto Parts
+EWBC,12279446528,"East West Bancorp, Inc.",Financial Services,Banks - Regional
+TTAN,10626203648,"ServiceTitan, Inc.",Technology,Software - Application
+FTI,12438554624,TechnipFMC plc,Energy,Oil & Gas Equipment & Services
+AFG,10850967552,"American Financial Group, Inc.",Financial Services,Insurance - Property & Casualty
+TXRH,11411665920,"Texas Roadhouse, Inc.",Consumer Cyclical,Restaurants
+YMM,12393796608,Full Truck Alliance Co. Ltd.,Technology,Software - Application
+AR,11119249408,Antero Resources Corporation,Energy,Oil & Gas E&P
+AKAM,12060333056,"Akamai Technologies, Inc.",Technology,Software - Infrastructure
+LOGI,11605978112,Logitech International S.A.,Technology,Computer Hardware
+CHRW,10784336896,"C.H. Robinson Worldwide, Inc.",Industrials,Integrated Freight & Logistics
+PEN,11462865920,"Penumbra, Inc.",Healthcare,Medical Devices
+ALSMY,11152648192,Alstom SA,Industrials,Railroads
+SN,11808796672,"SharkNinja, Inc.",Consumer Cyclical,"Furnishings, Fixtures & Appliances"
+ITT,11161234432,ITT Inc.,Industrials,Specialty Industrial Machinery
+BG,10611605504,Bunge Global SA,Consumer Defensive,Farm Products
+ENTG,12621684736,"Entegris, Inc.",Technology,Semiconductor Equipment & Materials
+NDSN,10974852096,Nordson Corporation,Industrials,Specialty Industrial Machinery
+EHC,11756961792,Encompass Health Corporation,Healthcare,Medical Care Facilities
+CIB,10610753536,Bancolombia S.A.,Financial Services,Banks - Regional
+PSO,10589285376,Pearson plc,Communication Services,Publishing
+PCTY,10404307968,Paylocity Holding Corporation,Technology,Software - Application
+GL,10141470720,Globe Life Inc.,Financial Services,Insurance - Life
+BZLFY,10375814144,Bunzl plc,Consumer Defensive,Food Distribution
+H,11739216896,Hyatt Hotels Corporation,Consumer Cyclical,Lodging
+UHAL,11151567872,U-Haul Holding Company,Industrials,Rental & Leasing Services
+KIKOY,10622358528,Kikkoman Corporation,Consumer Defensive,Packaged Foods
+PAG,10411597824,"Penske Automotive Group, Inc.",Consumer Cyclical,Auto & Truck Dealerships
+BNT,13446584320,Brookfield Wealth Solutions Ltd.,Financial Services,Insurance - Diversified
+JLL,11140015104,Jones Lang LaSalle Incorporated,Real Estate,Real Estate Services
+KMX,10185549824,"CarMax, Inc.",Consumer Cyclical,Auto & Truck Dealerships
+RBC,10838501376,RBC Bearings Incorporated,Industrials,Tools & Accessories
+CCK,11338490880,"Crown Holdings, Inc.",Consumer Cyclical,Packaging & Containers
+UUGRY,10285199360,United Utilities Group PLC,Utilities,Utilities - Regulated Water
+WWD,11538492416,"Woodward, Inc.",Industrials,Aerospace & Defense
+NBIX,10851542016,"Neurocrine Biosciences, Inc.",Healthcare,Drug Manufacturers - Specialty & Generic
+LECO,10281486336,"Lincoln Electric Holdings, Inc.",Industrials,Tools & Accessories
+DOCS,11132503040,"Doximity, Inc.",Healthcare,Health Information Services
+EXEL,10913126400,"Exelixis, Inc.",Healthcare,Biotechnology
+ALLY,10200517632,Ally Financial Inc.,Financial Services,Credit Services
+CRRFY,10042263552,Carrefour SA,Consumer Defensive,Grocery Stores
+CAVA,11178152960,"CAVA Group, Inc.",Consumer Cyclical,Restaurants
+CNM,10662152192,"Core & Main, Inc.",Industrials,Industrial Distribution
+DTM,10233262080,"DT Midstream, Inc.",Energy,Oil & Gas Midstream
+AEG,10405960704,Aegon Ltd.,Financial Services,Insurance - Diversified
+CLS,10817297408,Celestica Inc.,Technology,Electronic Components
+MANH,11135738880,"Manhattan Associates, Inc.",Technology,Software - Application
+MBLY,11863275520,Mobileye Global Inc.,Consumer Cyclical,Auto Parts
+BRBR,10124094464,"BellRing Brands, Inc.",Consumer Defensive,Packaged Foods
+APG,11715868672,APi Group Corporation,Industrials,Engineering & Construction
+MRNA,10677947392,"Moderna, Inc.",Healthcare,Biotechnology
+AIZ,10021993472,"Assurant, Inc.",Financial Services,Insurance - Property & Casualty
+JHX,10388725760,James Hardie Industries plc,Basic Materials,Building Materials
+STN,10456521728,Stantec Inc.,Industrials,Engineering & Construction
+TOL,10374262784,"Toll Brothers, Inc.",Consumer Cyclical,Residential Construction
+DRS,11174057984,"Leonardo DRS, Inc.",Industrials,Aerospace & Defense
+ALAB,11753492480,"Astera Labs, Inc.",Technology,Semiconductors
+HST,10398819328,"Host Hotels & Resorts, Inc.",Real Estate,REIT - Hotel & Motel
+ATR,10038185984,"AptarGroup, Inc.",Healthcare,Medical Instruments & Supplies
+ASND,10387864576,Ascendis Pharma A/S,Healthcare,Biotechnology
+SAIL,10407952384,"SailPoint, Inc. Common Stock",Technology,Software - Infrastructure
+PAC,10259836928,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",Industrials,Airports & Air Services
+BWXT,10291957760,"BWX Technologies, Inc.",Industrials,Aerospace & Defense
+BEN,10541950976,"Franklin Resources, Inc.",Financial Services,Asset Management
+TLN,10282484736,Talen Energy Corporation,Utilities,Utilities - Independent Power Producers
+DOX,10026250240,Amdocs Limited,Technology,Software - Infrastructure
+CACI,10185154560,CACI International Inc,Technology,Information Technology Services
+MTZ,11115036672,"MasTec, Inc.",Industrials,Engineering & Construction
+HNGKY,10824724480,Hongkong Land Holdings Limited,Real Estate,Real Estate - Development
+JEF,10162233344,Jefferies Financial Group Inc.,Financial Services,Capital Markets
+VTRS,10257688576,Viatris Inc.,Healthcare,Drug Manufacturers - Specialty & Generic
+RKLB,10608321536,"Rocket Lab USA, Inc.",Industrials,Aerospace & Defense
+COHR,11101836288,Coherent Corp.,Technology,Scientific & Technical Instruments
+CRS,10603488256,Carpenter Technology Corporation,Industrials,Metal Fabrication
+SWKS,10145164288,"Skyworks Solutions, Inc.",Technology,Semiconductors
+CIEN,10355336192,Ciena Corporation,Technology,Communication Equipment
