@@ -1,0 +1,10 @@
+beautifulsoup4      # for bs4
+pandas              # for DataFrame I/O and manipulation
+requests            # for HTTP requests (10-Q downloads)
+yfinance            # for price history downloads
+torch               # PyTorch core
+transformers        # HuggingFace tokenizers & FinBERT
+tqdm                # progress bars
+numpy               # array ops
+scikit-learn        # f1_score, TimeSeriesSplit, etc.
+pytorch-tcn         # TCN
