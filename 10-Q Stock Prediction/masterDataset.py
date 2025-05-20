@@ -73,18 +73,18 @@ for ticker in sorted(os.listdir(EMBED_DIR)):
                 valid_count += 1
 
             except Exception as e:
-                print(f"⚠️ Error processing {ticker} {fn}: {e}")
+                print(f"⚠Error processing {ticker} {fn}: {e}")
 
-        print(f"✅ Finished {ticker}: {valid_count} matched 10-Q embeddings")
+        print(f"Finished {ticker}: {valid_count} matched 10-Q embeddings")
 
     except Exception as e:
-        print(f"❌ Failed loading price data for {ticker}: {e}")
+        print(f"Failed loading price data for {ticker}: {e}")
 
 # ---- Build and Save Master Dataset ----
 master = pd.DataFrame(master_records)
 master = master.sort_values(["trade_date", "ticker"]).reset_index(drop=True)
 master.to_csv(OUTPUT_PATH, index=False)
 
-print(f"\n📁 Master dataset built and saved with {len(master)} rows to {OUTPUT_PATH}")
+print(f"\nMaster dataset built and saved with {len(master)} rows to {OUTPUT_PATH}")
 
 
