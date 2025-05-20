@@ -21,14 +21,14 @@ for ticker in tickers:
 
     # Skip if file already exists
     if os.path.isfile(file_path):
-        print(f"✅ Skipping {ticker}, CSV already exists.")
+        print(f"Skipping {ticker}, CSV already exists.")
         continue
 
     try:
         # Download price data
         data = yf.download(ticker, period='max', interval='1d', progress=False)
         if data.empty:
-            print(f"⚠️ No stock data for {ticker}. Skipping.")
+            print(f"⚠No stock data for {ticker}. Skipping.")
             continue
 
         # Append metadata
@@ -40,7 +40,7 @@ for ticker in tickers:
         # Save to CSV
         os.makedirs(save_path, exist_ok=True)
         data.to_csv(file_path)
-        print(f"📈 Downloaded stock data for {ticker}")
+        print(f"Downloaded stock data for {ticker}")
 
     except Exception as e:
-        print(f"❌ Failed for {ticker}: {e}")
+        print(f"Failed for {ticker}: {e}")
