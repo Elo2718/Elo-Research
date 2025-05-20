@@ -88,7 +88,7 @@ def get_latest_10q_url(cik):
                 acc_no = acc.replace("-", "")
                 return f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_no}/{doc}"
     except Exception as e:
-        print(f"❌ Failed to fetch 10-Q URL: {e}")
+        print(f"Failed to fetch 10-Q URL: {e}")
     return None
 
 # ---- Text Cleaning ----
@@ -103,7 +103,7 @@ def clean_text_from_url(url):
         txt = re.sub(r"\s+", " ", txt)
         return txt
     except Exception as e:
-        print(f"❌ Error cleaning text: {e}")
+        print(f"Error cleaning text: {e}")
     return None
 
 # ---- FinBERT Embedding ----
@@ -123,7 +123,7 @@ def get_finbert_embedding(text, chunk_size=512):
 
 # ---- Prediction Pipeline ----
 def predict_from_latest_10q(ticker, cik):
-    print(f"\n🔍 Fetching latest 10-Q for {ticker}...")
+    print(f"\nFetching latest 10-Q for {ticker}...")
     url = get_latest_10q_url(cik)
     if not url:
         raise RuntimeError("No 10-Q found")
@@ -152,18 +152,18 @@ if __name__ == "__main__":
 
     t = input("Enter stock ticker (e.g. AAPL): ").strip().upper()
     if t not in df_map["ticker"].values:
-        print(f"❌ '{t}' not in {TICKER_CIK_CSV}")
+        print(f"'{t}' not in {TICKER_CIK_CSV}")
         exit(1)
     cik = df_map.loc[df_map["ticker"] == t, "cik_str"].values[0]
-    print(f"✅ Found CIK: {cik}")
+    print(f"Found CIK: {cik}")
 
     try:
         pred, logit = predict_from_latest_10q(t, cik)
         prob = 1 / (1 + math.exp(-logit))  # sigmoid to get probability
-        label = "LONG 📈" if pred == 1 else "SHORT 📉"
-        print(f"\n🔮 Prediction for {t}: {label}")
+        label = "LONG" if pred == 1 else "SHORT"
+        print(f"\nPrediction for {t}: {label}")
         print(f"   • Logit:       {logit:.4f}")
         print(f"   • Probability: {prob*100:.1f}%")
     except Exception as e:
-        print(f"❌ {e}")
+        print(f"{e}")
 
