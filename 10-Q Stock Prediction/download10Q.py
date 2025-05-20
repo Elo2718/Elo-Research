@@ -21,7 +21,7 @@ def get_10q_links(cik, ticker):
         res.raise_for_status()
         data = res.json()
     except Exception as e:
-        print(f"❌ Error fetching SEC data for {ticker}: {e}")
+        print(f"Error fetching SEC data for {ticker}: {e}")
         return []
 
     filings = data['filings']['recent']
@@ -45,7 +45,7 @@ def convert_html_to_txt(url):
         text = soup.get_text(separator='\n', strip=True)
         return text
     except Exception as e:
-        print(f"❌ Failed to parse {url}: {e}")
+        print(f"Failed to parse {url}: {e}")
         return None
 
 def save_txt(ticker, date, content):
@@ -61,20 +61,20 @@ def process_ticker(ticker, cik):
     txt_folder = os.path.join("10-Q", ticker, "TXT")
 
     if not os.path.exists(stock_folder) or not any(fname.endswith(".csv") for fname in os.listdir(stock_folder)):
-        print(f"⏩ {ticker} — Skipped (no stock price data)")
+        print(f"{ticker} — Skipped (no stock price data)")
         return
 
     if os.path.exists(txt_folder) and len(os.listdir(txt_folder)) > 0:
-        print(f"⏩ {ticker} — Already has 10-Q folder with files")
+        print(f"{ticker} — Already has 10-Q folder with files")
         return
 
-    print(f"🔍 {ticker} — checking 10-Q filings...")
+    print(f"{ticker} — checking 10-Q filings...")
 
     filings = get_10q_links(cik, ticker)
     if not filings:
         print(f"🗑️ {ticker} — No 10-Qs found. Deleting stock data")
         shutil.rmtree(stock_folder, ignore_errors=True)
-        print(f"✅ {ticker} — Deleted StockPrice/{ticker} (no filings)\n")
+        print(f"{ticker} — Deleted StockPrice/{ticker} (no filings)\n")
         return
 
     count = 0
@@ -88,9 +88,9 @@ def process_ticker(ticker, cik):
     if count == 0:
         print(f"🗑️ {ticker} — No valid 10-Qs saved. Deleting stock data")
         shutil.rmtree(stock_folder, ignore_errors=True)
-        print(f"✅ {ticker} — Deleted StockPrice/{ticker} (no usable files)\n")
+        print(f"{ticker} — Deleted StockPrice/{ticker} (no usable files)\n")
     else:
-        print(f"✅ {ticker} — Saved {count} 10-Q .txt files\n")
+        print(f"{ticker} — Saved {count} 10-Q .txt files\n")
 
 # Load tickers and CIKs
 df = pd.read_csv("company_tickers.csv").dropna(subset=["ticker", "cik_str"])
