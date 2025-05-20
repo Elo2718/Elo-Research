@@ -23,21 +23,21 @@ for i, ticker in enumerate(tickers[:1000]):
                 "sector": info.get("sector", ""),
                 "industry": info.get("industry", "")
             })
-            print(f"{ticker} ✅ Large Cap: ${market_cap:,}")
+            print(f"{ticker} Large Cap: ${market_cap:,}")
         else:
             non_large_caps.append(ticker)
-            print(f"{ticker} ❌ Not Large Cap")
+            print(f"{ticker} Not Large Cap")
     except Exception as e:
         error_tickers.append(ticker)
-        print(f"{ticker} ⚠️ Error: {e}")
+        print(f"{ticker} Error: {e}")
 
 # Save large caps to CSV
 pd.DataFrame(large_caps).to_csv("large_cap_stocks.csv", index=False)
 
 # Final summary
-print(f"\n✅ Done. Checked 1000 tickers.")
-print(f"✅ Large Caps Found: {len(large_caps)}")
-print(f"⚠️ Errors Encountered: {len(error_tickers)}")
+print(f"\nDone. Checked 1000 tickers.")
+print(f"Large Caps Found: {len(large_caps)}")
+print(f"⚠Errors Encountered: {len(error_tickers)}")
 
 # Optional: print large caps
 print("\n📈 Large Cap Tickers:")
