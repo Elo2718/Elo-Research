@@ -48,12 +48,12 @@ for ticker in tickers:
         df["trade"] = df["trade"].astype(int)
 
         df.reset_index().to_csv(output_path, index=False)
-        print(f"✅ Labeled and saved: {output_path}")
+        print(f"Labeled and saved: {output_path}")
 
     except Exception as e:
-        print(f"❌ Error processing {ticker}: {e}")
+        print(f"Error processing {ticker}: {e}")
 
-print("🎯 5-day reaction labeling complete.")
+print("5-day reaction labeling complete.")
 
 
 
