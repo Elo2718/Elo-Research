@@ -133,7 +133,7 @@ best_config = None
 best_score = -1
 
 for i, config in enumerate(param_grid, 1):
-    print(f"🔧 Config {i}: {config}")
+    print(f"Config {i}: {config}")
     start = time.time()
     avg_f1 = walk_forward_cv(X, y, config)
     elapsed = time.time() - start
