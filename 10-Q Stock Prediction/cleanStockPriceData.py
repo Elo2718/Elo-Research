@@ -27,8 +27,8 @@ for ticker in os.listdir(dir):
         # Save cleaned data
         cleaned_path = os.path.join(folder_path, f"{ticker}_price_cleaned.csv")
         df.to_csv(cleaned_path)
-        print(f"✅ Cleaned data saved to {cleaned_path}")
+        print(f"Cleaned data saved to {cleaned_path}")
 
     except Exception as e:
-        print(f"❌ Error processing {ticker}: {e}")
+        print(f"Error processing {ticker}: {e}")
 
