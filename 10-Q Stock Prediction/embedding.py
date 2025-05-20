@@ -4,7 +4,6 @@ import pandas as pd
 from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 
-# ✅ Move to GPU if available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"🖥️ Using device: {device}")
 
@@ -38,7 +37,7 @@ def embed_text_chunks(text):
     else:
         return None
 
-# 🔁 Encode all tickers
+# Encode all tickers
 for ticker in os.listdir(base_dir):
     txt_dir = os.path.join(base_dir, ticker, "TXT")
     embed_dir = os.path.join(base_dir, ticker, "Embedding")
@@ -68,7 +67,7 @@ for ticker in os.listdir(base_dir):
             if embedding is not None:
                 pd.DataFrame([embedding]).to_csv(embed_path, index=False)
         except Exception as e:
-            print(f"⚠️ Error processing {fname}: {e}")
+            print(f"⚠Error processing {fname}: {e}")
 
-print("✅ Done encoding all FinBERT embeddings.")
+print("Done encoding all FinBERT embeddings.")
 
